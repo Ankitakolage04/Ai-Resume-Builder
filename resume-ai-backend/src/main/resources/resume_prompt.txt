@@ -1,0 +1,22 @@
+Generate a professional IT resume in strict JSON format.
+Input: "{{userDescription}}"
+
+Structure:
+{
+  "personalInformation": {"fullName": "", "email": "", "phoneNumber": "", "location": "", "linkedIn": "", "gitHub": "", "portfolio": ""},
+  "summary": "Professional summary string",
+  "skills": [{"title": "", "level": "Beginner/Intermediate/Advanced"}],
+  "experience": [{"jobTitle": "", "company": "", "location": "", "duration": "", "responsibility": "Key responsibility"}],
+  "education": [{"degree": "", "university": "", "location": "", "graduationYear": ""}],
+  "certifications": [{"title": "", "issuingOrganization": "", "year": ""}],
+  "projects": [{"title": "", "description": "", "technologiesUsed": ["Tech1", "Tech2"], "githubLink": ""}],
+  "achievements": [{"title": "", "year": "", "extraInformation": ""}],
+  "languages": [{"name": ""}],
+  "interests": [{"name": ""}],
+  "references": [{"name": "", "designation": "", "company": "", "contact": ""}]
+}
+
+Rules:
+1. Output ONLY valid JSON. No markdown, no thinking, no explanations.
+2. Fill missing fields with null.
+3. Keep descriptions professional and concise.
